@@ -1,0 +1,22 @@
+package com.tns.firstcode;
+
+public class Methodoverloading {
+	public void main() {
+		int numberone = 10;
+		int numbertwo = 20;
+		System.out.println(numberone+numbertwo);
+	}
+	public void main(int num1) {
+		
+		System.out.println(num1+num2);
+	}
+	public Methodoverloading() {
+		
+	}
+	public static void main(String[]args) {
+		Methodoverloading load = new Methodoverloading();
+		load.main();
+	}
+
+
+}
